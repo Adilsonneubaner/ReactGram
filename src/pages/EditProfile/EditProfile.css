@@ -1,0 +1,28 @@
+#edit-profile{
+    border: 1px solid #363636;
+    background-color: black;
+    padding: 1.5em 2em;
+    margin: 2em auto;
+    text-align: center;
+    max-width: 40%;
+}
+.subtitle{
+    color: #ccc;
+}
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+@media(width <= 1200px){
+    #edit-profile{
+        max-width: 70%;
+    }
+}
+@media(width <= 600px){
+    #edit-profile{
+        max-width: 95%;
+    }
+}

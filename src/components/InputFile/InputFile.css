@@ -1,0 +1,23 @@
+.file input{
+    display: none;
+}
+.file{
+    display: flex;
+    align-items: center;
+    background-color: #3b3b3b;
+    color: #aaa;
+    border: 1px solid #555;
+    border-radius: 2px;
+    padding: 6px;
+    margin-bottom: .6em;
+}
+.file label{
+    background-color: rgb(141, 100, 231);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 20px;
+}
+.file p{
+    font-size: .8em;
+}

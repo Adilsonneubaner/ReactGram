@@ -1,0 +1,58 @@
+#nav{
+    background-color: black;
+    border-bottom: 1px solid #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2em;
+    position: relative;
+}
+#reactgram{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#search-form{
+    position: relative;
+    width: 20%;
+}
+#search-form input{
+    padding-left: 2.5em;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+#search{
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+#nav-links{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+#nav-links span{
+    cursor: pointer;
+    font-size: 1.1em;
+}
+#nav-links svg{
+    font-size: 1.5em;
+}
+
+@media(width <= 600px){
+    #nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #reactgram{
+        align-self: flex-start;
+    }
+    #nav-links{
+        align-self: flex-end;
+    }
+   #search-form{
+    order: 3;
+    width: 100%;
+   }
+}

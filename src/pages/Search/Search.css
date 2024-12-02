@@ -1,0 +1,23 @@
+#search-page{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+#search-page span{
+    color: rgb(178, 150, 240);
+}
+#search-page h2, #search-page h3{
+    text-align: center;
+}
+#search-page .btn{
+    display: block;
+    max-width: 80px;
+    text-align: center;
+    margin: .5em 0 5em 0;
+}
+
+@media(width <= 600px){
+    #search-page{
+        width: 90%;
+    }
+}

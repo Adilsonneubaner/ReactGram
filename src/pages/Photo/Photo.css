@@ -1,0 +1,44 @@
+#photo{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+}
+.message-container{
+    margin: 1em 0;
+}
+.comments{
+    text-align: left;
+}
+.comments form{
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #363636;
+}
+.author{
+    display: flex;
+    font-weight: bold;
+}
+.author a{
+    display: flex;
+    align-items: center;
+}
+#photo .author img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+.comment{
+    margin-bottom: 1.5em;
+}
+.comment > p{
+    margin-top: .5em;
+    font-size: .9em;
+}
+
+@media(width <= 600px){
+    #photo{
+        width: 90%;
+    }
+}

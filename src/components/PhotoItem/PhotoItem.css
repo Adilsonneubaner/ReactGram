@@ -1,0 +1,28 @@
+.photo-item img{
+    width: 100%;
+}
+#home .photo-item h2{
+    margin-bottom: .2em;
+}
+.photo-author{
+    text-align: left
+}
+.photo-author a{
+    font-weight: bold;
+    color: rgb(178, 150, 240);
+}
+.author-like{
+    display: flex;
+    justify-content: space-between;
+}
+.like{
+    display: flex;
+    align-items: center;
+}
+.like svg{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.like p{
+    margin-left: 1em;
+}
